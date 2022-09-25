@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Estudiante">
+  <ClassDiagramComponents>
+    <Class name="Estudiante" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+        <Field name="grado" type="String" visibility="private"/>
+        <Field name="sexo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="leer" returnType="void" visibility="public"/>
+        <Method name="escribir" returnType="void" visibility="public"/>
+        <Method name="operar" returnType="void" visibility="public"/>
+        <Method name="opinar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

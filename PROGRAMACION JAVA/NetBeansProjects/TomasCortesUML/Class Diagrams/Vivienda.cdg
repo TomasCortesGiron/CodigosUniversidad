@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Vivienda">
+  <ClassDiagramComponents>
+    <Class name="Vivienda" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="metrosCuadrados" type="double" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="lugar" type="String" visibility="private"/>
+        <Field name="residentes" type="int" visibility="private"/>
+        <Field name="pisos" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="AlarmaIncendios" returnType="void" visibility="public"/>
+        <Method name="CorrienteElectrica" returnType="void" visibility="public"/>
+        <Method name="LlaveGas" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Mamiferos">
+  <ClassDiagramComponents>
+    <Class name="Mamiferos" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="especie" type="String" visibility="private"/>
+        <Field name="Habitad" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="alimentacion" type="String" visibility="private"/>
+        <Field name="peso" type="double" visibility="private"/>
+        <Field name="altura" type="double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="gruposPoblacionales" returnType="void" visibility="public"/>
+        <Method name="velocidadPromedio" returnType="void" visibility="public"/>
+        <Method name="tiempoDescanso" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

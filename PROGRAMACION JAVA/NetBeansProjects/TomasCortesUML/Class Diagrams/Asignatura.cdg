@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Asignatura">
+  <ClassDiagramComponents>
+    <Class name="Asignatura" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="creditos" type="int" visibility="private"/>
+        <Field name="profesor" type="String" visibility="private"/>
+        <Field name="horasSemanales" type="int" visibility="private"/>
+        <Field name="salon" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="notaFinalEstudiante" returnType="void" visibility="public"/>
+        <Method name="reprobados" returnType="void" visibility="public"/>
+        <Method name="aprovados" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
